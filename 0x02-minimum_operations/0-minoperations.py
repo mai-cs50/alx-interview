@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 """minimum operation"""
 
+
 def minOperations(n: int) -> int:
 	"""In a text file, there is a single character H. 
 	Your text editor can execute only two operations in this file: Copy All and Paste.
@@ -14,7 +15,8 @@ def minOperations(n: int) -> int:
 
 	n = 9
 
-	H => Copy All => Paste => HH => Paste =>HHH => Copy All => Paste => HHHHHH => Paste => HHHHHHHHH
+	H => Copy All => Paste => HH => Paste =>HHH =>
+	Copy All => Paste => HHHHHH => Paste => HHHHHHHHH
 
 	Number of operations: 6"""
 	next = 'H'
